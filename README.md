@@ -11,7 +11,10 @@
 
   <h3>DESCRIPTION DU PROJET DU POINT DE VUE EXTERNE<h3>
 	Notre projet se subdivise en deux grandes partie une partie serveur et une partie client :
- 
+ <hr>
+<hr>
+<hr>
+
 <h4>La partie client :</h4>
 <p> Après avoir ouvert l'application le client a deux choix, il peut envoyer un message textuel ou bien envoyer une image aux autres utilisateurs, cet envoi de message se fait à travers 2 serveurs différents, un serveur de messages textuels, et un serveur d’images.</p>
 
@@ -48,15 +51,18 @@ Le récepteur doit confirmer le téléchargement de l’image.
 
 ![9](https://user-images.githubusercontent.com/62174583/121095084-910f3d80-c7e7-11eb-8b3d-225d7790c505.PNG)
 
-
+<hr>
+<hr>
+<hr>
 	  
 <h4>La partie serveur</h4>
 La partie serveur c’est elle qui s'intéresse à l’envoi des messages aux destinataires, elle se base sur 2 serveurs en parallèles basés sur le multithreading:
+	  <hr>
 <b>Le serveur de messages textuels:</b> il reçoit les messages d'auprès l'utilisateur et puis renvoie ce même message aux autres utilisateurs de l’application, et ceci en suivant les étapes suivantes:
 1-création d’un socket serveur
 2-création d’une conversation pour chaque utilisateur de l’application.
 2-et puis démarrer la conversation (mettre le serveur en écoute de chaque message), le serveur récupère les messages à l'aide d’un objet BufferedReader, et écrit les messages à l'aide d’un objet PrintWriter.
-
+<hr>
 <b>Le serveur d'images:</b> Il suit le même processus que le serveur de messages textuels suit mais cette fois-ci, il utilise un objet BufferedImage et aussi les méthodes ImageIO.read() et ImageIO.write().
 
 
