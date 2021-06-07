@@ -49,4 +49,14 @@ Le récepteur doit confirmer le téléchargement de l’image.
 ![9](https://user-images.githubusercontent.com/62174583/121095084-910f3d80-c7e7-11eb-8b3d-225d7790c505.PNG)
 
 
+	  
+<h4>La partie serveur</h4>
+La partie serveur c’est elle qui s'intéresse à l’envoi des messages aux destinataires, elle se base sur 2 serveurs en parallèles basés sur le multithreading:
+Le serveur de messages textuels: il reçoit les messages d'auprès l'utilisateur et puis renvoie ce même message aux autres utilisateurs de l’application, et ceci en suivant les étapes suivantes:
+1-création d’un socket serveur
+2-création d’une conversation pour chaque utilisateur de l’application.
+2-et puis démarrer la conversation (mettre le serveur en écoute de chaque message), le serveur récupère les messages à l'aide d’un objet BufferedReader, et écrit les messages à l'aide d’un objet PrintWriter.
+
+Le serveur d'images: Il suit le même processus que le serveur de messages textuels suit mais cette fois-ci, il utilise un objet BufferedImage et aussi les méthodes ImageIO.read() et ImageIO.write().
+
 
