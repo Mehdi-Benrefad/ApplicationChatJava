@@ -1,4 +1,4 @@
-# ApplicationChatJava
+# Application Chat Java
 <h2>L’ÉQUIPE<h2>
 
 <h3>Notre équipe de projet est composée de : <h3>
