@@ -42,6 +42,11 @@ Un récepteur peut télécharger l’image en cliquant sur le bouton “Save Ima
 	  
 Le récepteur doit insérer le nom de l’image qu'il veut télécharger.
 
+![8](https://user-images.githubusercontent.com/62174583/121095046-7dfc6d80-c7e7-11eb-9726-61c00ac698a3.PNG)
+
+Le récepteur doit confirmer le téléchargement de l’image.
+
+![9](https://user-images.githubusercontent.com/62174583/121095084-910f3d80-c7e7-11eb-8b3d-225d7790c505.PNG)
 
 
 
