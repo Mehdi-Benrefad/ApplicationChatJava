@@ -15,3 +15,4 @@
 <h4>La partie client :</h4>
 <p> Après avoir ouvert l'application le client a deux choix, il peut envoyer un message textuel ou bien envoyer une image aux autres utilisateurs, cet envoi de message se fait à travers 2 serveurs différents, un serveur de messages textuels, et un serveur d’images.</p>
 
+![1](https://user-images.githubusercontent.com/62174583/121094430-8c965500-c7e6-11eb-8414-887447969c72.PNG)
