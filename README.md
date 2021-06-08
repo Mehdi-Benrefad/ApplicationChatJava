@@ -3,10 +3,10 @@
 
 <h3>Notre équipe de projet est composée de : <h3>
   
-    # MEHDI BENREFAD, Élève Ingénieur en Génie Informatique 
-    # ISMAIL LARHCHIM Élève Ingénieur en Génie Informatique 
-    # YAHYA CHIBANE Élève Ingénieur en Génie Informatique
-    # BADER-EDDINE QODIA Élève Ingénieur en Génie Informatique 
+    # MEHDI BENREFAD, Élève Ingénieur en Génie Informatique, Option Génie Logiciel
+    # ISMAIL LARHCHIM Élève Ingénieur en Génie Informatique, Option Génie Logiciel
+    # YAHYA CHIBANE Élève Ingénieur en Génie Informatique, Option Génie Logiciel
+    # BADER-EDDINE QODIA Élève Ingénieur en Génie Informatique, Option Génie Logiciel
  
 
   <h3>DESCRIPTION DU PROJET DU POINT DE VUE EXTERNE<h3>
